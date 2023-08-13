@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;padding: 0;box-sizing: border-box;
+        }
+        .btn{
+            width: 300px;
+            height: 300px;
+            /* margin: 100px auto; */
+            /* border: 1px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            border-radius: 50%;
+            box-shadow: 0 0 30px 0 black;
+            background-color: orange;
+            color: white;
+            box-sizing: content-box;
+            position: absolute;
+            /* top: 100px; */
+            left: calc(50% - 150px);
+            transition: 1s linear;
+        }
+        .btn:hover{
+            border: 1px solid white;
+            box-shadow: 0 0 30px 150px transparent;
+            top: 85px;
+            left: calc(50% - 180px);
+        }
+    </style>
+</head>
+<body>
+    <div class="btn">click me</div>
+</body>
+</html>
